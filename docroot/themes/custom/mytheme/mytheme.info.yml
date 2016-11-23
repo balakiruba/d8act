@@ -1,0 +1,4 @@
+name: MyTheme
+description: My New Theme for Drupal 8.
+type: theme
+core: 8.x
