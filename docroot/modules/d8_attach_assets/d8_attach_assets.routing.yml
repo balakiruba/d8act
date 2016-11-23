@@ -1,0 +1,7 @@
+d8_attach_assets:
+  path: '/d8_attach_assets'
+  defaults:
+    _controller: '\Drupal\d8_attach_assets\Controller\AttachAssetsController::simple'
+    _title: 'Assest Block'
+  requirements:
+    _permission: 'access content'
