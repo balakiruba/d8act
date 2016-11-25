@@ -1,0 +1,5 @@
+name: 'Rating'
+description: 'Rating field formatter'
+type: module
+core: 8.x
+package: D8 Card

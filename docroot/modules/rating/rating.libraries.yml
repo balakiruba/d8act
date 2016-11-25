@@ -1,0 +1,5 @@
+rating:
+  version: VERSION
+  css:
+    theme:
+      css/rating.css: {}

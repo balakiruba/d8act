@@ -1,0 +1,10 @@
+<?php
+
+function rating_theme() {
+  return array(
+    'rating_number_formatter' => array(
+      'variables' => array('value' => NULL),
+      'template' => 'rating-formatter',
+    ),
+  );
+}
