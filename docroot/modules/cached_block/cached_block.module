@@ -1,0 +1,9 @@
+<?php
+/**
+ * Implements hook_entity_insert().
+ */
+function cached_block_entity_insert(Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->getEntityTypeId() == 'node') {
+    \Drupal\Core\Cache\Cache::invalidateTags(array('node:add'));
+  }
+}
