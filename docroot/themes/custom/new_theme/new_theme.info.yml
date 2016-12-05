@@ -1,0 +1,14 @@
+name: New Theme
+type: theme
+description: My Awesome theme
+package: Custom
+core: 8.x
+libraries:
+  - new_theme/global-styling
+
+base theme: stable
+
+regions:
+  sidebar1: sidebar1
+  content: Content
+  sidebar2: sidebar2
