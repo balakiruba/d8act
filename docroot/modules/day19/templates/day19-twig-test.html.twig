@@ -1,0 +1,19 @@
+{{ dump(var1) }}
+{{ dump(var2) }}
+
+{% if var1  %}
+    {{ var1 }}
+    <span class = "{{ var2.1 |clean_class }}">
+        {{ var2.2 |join }}
+    </span>
+{% endif %}
+<div>
+    {{ var2.3.g }}
+</div>
+
+<div class= "{{ var2.2|join }}">
+    {{ 'Hello'|t }}
+</div>
+<span class="{% for i in 0..var2.4 %}minion-{{ i }} {% endfor %}">
+    {{ "Hello"|t }}
+</span>
