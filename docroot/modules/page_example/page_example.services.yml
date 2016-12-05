@@ -1,0 +1,6 @@
+services:
+  page_example.message_subscriber:
+    class: Drupal\page_example\EventSubscriber\MessageSubscriber
+    arguments: []
+    tags:
+      - { name = event_subscriber }
