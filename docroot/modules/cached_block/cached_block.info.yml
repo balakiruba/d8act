@@ -1,0 +1,5 @@
+type: module
+name: Cached Block
+description: 'Block that demostrates caching.'
+package: D8 Card
+core: 8.x
