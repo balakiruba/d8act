@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_element_info_alter().
+ */
+function d8_attach_assets_element_info_alter(array &$types) {
+  if(isset($types['table'])){
+    $types['table']['#attached']['library'][] = 'd8_attach_assets/asset';
+  }
+}

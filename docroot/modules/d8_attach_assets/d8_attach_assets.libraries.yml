@@ -1,0 +1,6 @@
+asset:
+  css:
+    theme:
+      attach.css: {}
+  js:
+    attach.js: {}

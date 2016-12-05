@@ -1,0 +1,4 @@
+name: D8 attach assets demo
+description: Adds CSS/JS in D8
+core: 8.x
+type: module
